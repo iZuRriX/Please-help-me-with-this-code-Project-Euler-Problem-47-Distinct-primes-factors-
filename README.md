@@ -19,44 +19,44 @@ Find the first four consecutive integers to have four distinct prime factors eac
 
 
 # You can see the code down below:
-Sub main()
-    Dim nadjen As Boolean
-    Dim b As Long
-    nadjen = False
-    b = 1
+    Sub main()
+        Dim nadjen As Boolean
+        Dim b As Long
+        nadjen = False
+        b = 1
 
-    While Not nadjen
-        If (primovi(b) = 4) Then
-        b = b + 1
+        While Not nadjen
             If (primovi(b) = 4) Then
             b = b + 1
                 If (primovi(b) = 4) Then
                 b = b + 1
                     If (primovi(b) = 4) Then
-                    nadjen = True
+                    b = b + 1
+                        If (primovi(b) = 4) Then
+                        nadjen = True
+                        End If
                     End If
                 End If
             End If
-        End If
-    b = b + 1
-    Wend
+        b = b + 1
+        Wend
 
-    MsgBox (b - 4 & ", " & b - 3 & ", " & b - 2 & ", " & b - 1)
-End Sub
+        MsgBox (b - 4 & ", " & b - 3 & ", " & b - 2 & ", " & b - 1)
+    End Sub
 
-Function primovi(ByVal x As Long) As Integer
-    Dim a As Integer
-    Dim i As Long
-    i = 2
+    Function primovi(ByVal x As Long) As Integer
+        Dim a As Integer
+        Dim i As Long
+        i = 2
 
-    While (x <> 1 Or x > i)
-        If ((x Mod i) = 0) Then
-        x = x / i
-        a = a + 1
-        i = i - 1
-        End If
-    i = i + 1
-    Wend
+        While (x <> 1 Or x > i)
+            If ((x Mod i) = 0) Then
+            x = x / i
+            a = a + 1
+            i = i - 1
+            End If
+        i = i + 1
+        Wend
 
-    primovi = a
-End Function
+        primovi = a
+    End Function
