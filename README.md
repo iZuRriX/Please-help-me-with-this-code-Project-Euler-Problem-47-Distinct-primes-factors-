@@ -2,6 +2,7 @@
 I need someone to explain to me how this code works. 
 It is written in Visual Basic in Excel.
 
+
 # The problem goes: 
 The first two consecutive numbers to have two distinct prime factors are:
 
@@ -16,9 +17,8 @@ The first three consecutive numbers to have three distinct prime factors are:
 
 Find the first four consecutive integers to have four distinct prime factors each. What is the first of these numbers?
 
------------------------------------------------------------------------------
-You can see the code down below:
 
+# You can see the code down below:
 Sub main()
     Dim nadjen As Boolean
     Dim b As Long
