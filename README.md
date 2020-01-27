@@ -1,6 +1,6 @@
 # Please help me with this code Project-Euler: Problem 47 - Distinct primes factors 
 
-I need someone to explain to me how this code works. 
+I need someone to explain to me how this code works. It is written in Visual Basic in Excel (IT MUST BE WRITTEN IN VISUAL BASIC IN EXCEL, it is for my university).
 My friends did it for me, but I don't understand it and it is really urgent. 
 Thank you in advance. 
 
