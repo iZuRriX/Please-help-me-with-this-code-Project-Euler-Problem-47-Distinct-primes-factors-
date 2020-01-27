@@ -1,7 +1,8 @@
-# Please help me with this code Project-Euler: Problem 47 - Distinct primes factors 
+# Please help me understand this Visual Basic code for Project Euler: Problem 47 - Distinct primes factors 
 
-I need someone to explain to me how this code works. It is written in Visual Basic in Excel (IT MUST BE WRITTEN IN VISUAL BASIC IN EXCEL, it is for my university).
-My friends did it for me, but I don't understand it and it is really urgent. 
+I need someone to explain to me how this code works. 
+It is written in Visual Basic in Excel.
+A friends did it for me, but I don't understand it. 
 Thank you in advance. 
 
 -----------------------------------------------------------------------------
@@ -22,7 +23,7 @@ The first three consecutive numbers to have three distinct prime factors are:
 Find the first four consecutive integers to have four distinct prime factors each. What is the first of these numbers?
 
 -----------------------------------------------------------------------------
-You can see my code down below, if you do not want to download it from GitHub:
+You can see the code down below, if you do not want to download it from GitHub:
 
 `Sub main()
 
