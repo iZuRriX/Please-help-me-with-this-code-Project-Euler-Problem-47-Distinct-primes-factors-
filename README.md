@@ -2,7 +2,6 @@
 I need someone to explain to me how this code works. 
 It is written in Visual Basic in Excel.
 
------------------------------------------------------------------------------
 # The problem goes: 
 The first two consecutive numbers to have two distinct prime factors are:
 
