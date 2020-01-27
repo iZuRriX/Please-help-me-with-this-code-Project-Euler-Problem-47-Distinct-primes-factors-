@@ -1,11 +1,9 @@
 # Please help me understand this Visual Basic code for Project Euler: Problem 47 - Distinct primes factors 
-
 I need someone to explain to me how this code works. 
 It is written in Visual Basic in Excel.
 
 -----------------------------------------------------------------------------
 # The problem goes: 
-
 The first two consecutive numbers to have two distinct prime factors are:
 
 14 = 2 × 7
